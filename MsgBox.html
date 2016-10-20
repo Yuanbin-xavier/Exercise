@@ -99,7 +99,7 @@
       }
       oSend.onclick = function(){
         if (oMessage.value === '') {
-          alert('好歹写点什么吧，哥们!');
+          alert('你没有写东西');
         } else {
           if (flag) {
             oContent.innerHTML = '<p style="text-align: right"><span style="background: #eee">' + oMessage.value + '</span>' + '<img src="6.jpg">' + '</p>' + oContent.innerHTML;
@@ -115,7 +115,7 @@
   <div id="container">
     <div id="content"></div>
     <p id="footer">
-      <img id="avatar" src="4.jpg">
+      <img id="avatar" src="6.jpg">
       <input id="message" type="text" placeholder="选头像、输文字、点发送">
       <a id="send" href="javascript:">发送</a>
     </p>
